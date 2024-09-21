@@ -20,17 +20,17 @@ def extract_pdf(pdf_file):
     
     return pdf_data
 
-@tool("Tool to organize extracted text into structured JSON format")
-def organize_into_json(text):
-    """
-    Organizes extracted text json into structured JSON format.
+# @tool("Tool to organize extracted text into structured JSON format")
+# def organize_into_json(text):
+#     """
+#     Organizes extracted text json into structured JSON format.
     
-    Parameters:
-    text (str): The extracted text json from the PDF file.
+#     Parameters:
+#     text (str): The extracted text json from the PDF file.
     
-    Returns:
-    dict: Structured data extracted from the text.
-    """
-    structured_data = json.loads(text)
-    return structured_data
+#     Returns:
+#     dict: Structured data extracted from the text.
+#     """
+#     structured_data = json.loads(text)
+#     return structured_data
 
